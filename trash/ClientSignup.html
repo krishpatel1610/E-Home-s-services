@@ -1,0 +1,82 @@
+<html>
+<head>
+	<title> Sign up form for Client </title>
+	<link rel = "stylesheet" href = "Login.css">
+</head>
+<body>
+<table>
+	<div class="wrapper">
+		<div class="logo"> <img src="IMAGES\logo4-removebg-preview(1).png" alt="logo"> </div>
+		<div class="text-center mt-4 name" aling="center"> E-Home's Services </div><br>
+		<form class="p-3 mt-3" method="post" action="ClientSignup.php">
+			Client id
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Clientid" id="clientid" placeholder="Client id">
+			</div>
+			Client password
+			<div class="form-field d-flex align-items-center">
+			<span class="fas fa-key"></span>
+			<input type="password" name="Clientpassword" id="Clientpwd" placeholder="Client password">
+			</div>
+			First name
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Firstname" id="ClientFName" placeholder="First name">
+			</div>
+			Middle name
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Middlename" id="ClientMName" placeholder="Middle name">
+			</div>
+			Last name
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Lastname" id="ClientLName" placeholder="Last name">
+			</div>
+			Gender: 
+			<input type="radio" name="gender" id="male"  value="Male"><lable>Male</lable>
+			<input type="radio" name="gender" id="female"  value="Female"><lable>Female</lable><br><br>
+			Contact number
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="ContactNo" id="ClientCno" placeholder="Contact No.">
+			</div>
+			E-mail
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="email" name="EmailId" id="ClientEid" placeholder="E-mail Id">
+			</div>
+			Address - 1
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Address1" id="ClientAdd1" placeholder="Address - 1">
+			</div>
+			Address - 2
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Address2" id="ClientAdd2" placeholder="Address - 2">
+			</div>
+			City
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="City" id="ClientCity" placeholder="City">
+			</div>
+			State
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="State" id="ClientState" placeholder="State">
+			</div>
+			Pincode
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Pincode" id="ClientPincode" placeholder="Pincode">
+			</div>
+			
+			<button class="btn mt-3" name="Signupbtn">Sign up</button>
+			
+		</form>
+	</div>
+	</table>
+</body>
+</html>

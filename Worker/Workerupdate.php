@@ -1,0 +1,65 @@
+<html>
+<head>
+	<title> Update form for worker </title>
+	<link rel = "stylesheet" href = "Login.css">
+</head>
+<body>
+<table>
+	<div class="wrapper">
+		<div class="logo"> <img src="IMAGES\logo4-removebg-preview(1).png" alt="logo"> </div><br>
+		<div class="text-center mt-4 name" aling="center"> E-Home's Services </div><br>
+		<form class="p-3 mt-3">
+			Worker id
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Worker id" id="WorkerId" placeholder="Worker id">
+			</div>
+			Worker password
+			<div class="form-field d-flex align-items-center">
+			<span class="fas fa-key"></span>
+			<input type="password" name="Worker password" id="Workerpwd" placeholder="Worker password">
+			</div>
+			First name
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="First name" id="WorkerFName" placeholder="First name">
+			</div>
+			Middel name
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Middel name" id="WorkerMName" placeholder="Middel name">
+			</div>
+			Last name
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Last name" id="WorkerLName" placeholder="Last name">
+			</div>
+			Gender<br>
+			<input type="radio" name="WorkerGender" id="Male" placeholder="Male" value="Male"><lable>Male</lable>
+			<input type="radio" name="WorkerGender" id="Female" placeholder="Male" value="Female"><lable>Female</lable><br><br>
+			Contact number 1
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Contact No.1" id="WorkerCno1" placeholder="Contact No.">
+			</div>
+			Contact number 2
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="text" name="Contact No.2" id="WorkerCno2" placeholder="Contact No.">
+			</div>
+			E-mail
+			<div class="form-field d-flex align-items-center">
+			<span class="far fa-user"></span>
+			<input type="email" name="E-mail Id" id="WorkerEid" placeholder="E-mail Id">
+			</div>
+			
+			<button class="btn mt-3">Update my info</button>
+		</form>
+</table>
+	</div>
+</body>
+</html>
+
+<?php
+	include_once 'footer.php';
+?>
